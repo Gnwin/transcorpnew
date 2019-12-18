@@ -1,3 +1,5 @@
+/* All elments */
+
 body {
     margin: 0;
 }
@@ -21,6 +23,8 @@ li {
     list-style-type: none;
 }
 
+/* Topmost Header */
+
 .contain {
     margin: 0 auto;
     max-width: 1000px;
@@ -41,6 +45,10 @@ li {
 
 .contact {
     width: 96%;
+}
+
+.lang {
+    
 }
 
 /* navigation styles */
@@ -169,9 +177,6 @@ li {
     /* box-sizing: content-box; */
 }
 
-.lang {
-    
-}
 /* 
 #nav a:last-child {
     margin-right: 0%;
