@@ -172,7 +172,7 @@ li {
     display: flex;
     flex-direction: row;
     background-color: white;
-    margin: -90px auto;
+    margin: -84px auto;
     /* justify-content: center; */
     left: 18%;
     box-shadow: 0 10px 28px #888888;
@@ -181,6 +181,10 @@ li {
 .lodgedate {
     padding: 25px 10px 25px 20px;
     width: 25%;
+}
+
+.mon {
+    border-image: linear-gradient(white, grey, white)
 }
 
 .lodgedate p {
@@ -211,7 +215,7 @@ li {
 }
 
 .promo p {
-    color: white;
+    color: whitesmoke;
     font-family: SourceSansPro;
     padding: 16px 0 20px 0;
     margin-bottom: 0;
