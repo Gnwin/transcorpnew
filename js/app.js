@@ -26,10 +26,10 @@ function showSlides(n) {
 }
 
 
-let bookingPrice = document.querySelectorAll(".n3ii .a");
+const bookingPrice = document.querySelectorAll(".n3ii .a");
 let bookingLodgePreview = document.querySelector(".n3i img");
 
-let bookingPics = ["assets/img/rectangle8Copy.png", "assets/img/rectangle9Copy2@3x.png", "assets/img/rectangle9Copy3@3x.png", "assets/img/rectangle4Copy72@3x.png", "assets/img/rectangle4Copy73@2x.png"]
+const bookingPics = ["assets/img/rectangle8Copy.png", "assets/img/rectangle9Copy2@3x.png", "assets/img/rectangle9Copy3@3x.png", "assets/img/rectangle4Copy72@3x.png", "assets/img/rectangle4Copy73@2x.png"]
 
 for (let i = 0; i < bookingPrice.length; i++) {
   bookingPrice[i].addEventListener("click", ()=>{

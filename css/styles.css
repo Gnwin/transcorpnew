@@ -168,8 +168,63 @@ li {
 }
 
 .checking {
+    position: absolute;
     display: flex;
     flex-direction: row;
+    background-color: white;
+    margin: -90px auto;
+    /* justify-content: center; */
+    left: 18%;
+    box-shadow: 0 10px 28px #888888;
+}
+
+.lodgedate {
+    padding: 25px 10px 25px 20px;
+    width: 25%;
+}
+
+.lodgedate p {
+    margin: 0;
+    font-family: OpenSans;
+    font-size: 14px;
+    letter-spacing: 0.58px;
+}
+
+.lodgedate p span {
+    width: 56px;
+    height: 58px;
+    font-family: BodoniSvtyTwoITCTT;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+/* .lodgedate p span i {
+    vertical-align: baseline;
+} */
+
+.promo {
+    background-color: #053b58;
+    width: 25%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.promo p {
+    color: white;
+    font-family: SourceSansPro;
+    padding: 16px 0 20px 0;
+    margin-bottom: 0;
+}
+
+.promo a {
+    color: white;
+    background-color: #ff7200;
+    padding: 10px 14px 10px 14px;
+    letter-spacing: 0.58px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 50px;
 }
 
 .logo {
@@ -195,9 +250,10 @@ li {
     color: #526173;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 3%;
     text-decoration: none;
+    letter-spacing: 4.94px;
 }
 
 .about > .aboutus2 {
@@ -540,13 +596,23 @@ Fading animation
   to {opacity: 1}
 } */
 
-.news .newscontent .news5 {
+.news .newscontent #news5 {
     font-family: Georgia !important;
     font-size: 36px !important;
     letter-spacing: 2.12px !important;
     text-align: center !important;
     color: #4a4a4a !important;
     margin-top: 100px;
+} 
+
+#news5 {
+    text-align: center !important;
+    font-size: 38px;
+    font-weight: 480;
+    margin-top: 100px;
+    color: #4a4a4a;
+    letter-spacing: 2.12px;
+    font-family: Georgia;
 }
 
 .news > .newscontent > .news6 {
@@ -554,11 +620,16 @@ Fading animation
     flex-direction: row;
     /* justify-content: center; */
     width: 100%;
-    margin-top: 250px;
+    margin-top: 80px;
 }
+
 
 .card {
     width: 313px !important;
+}
+
+.card-body a {
+    color: #000000;
 }
 
 .caro {
